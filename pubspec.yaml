@@ -1,0 +1,63 @@
+name: expense_tracker_pro
+description: "A premium Flutter expense tracking application with beautiful UI and production-quality architecture."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  animations: ^2.0.11
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.3
+  flutter_slidable: ^3.1.1
+  gap: ^3.0.1
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+
+  # Charts
+  fl_chart: ^0.69.0
+
+  # Image
+  image_picker: ^1.1.2
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.12
+  riverpod_generator: 2.4.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
